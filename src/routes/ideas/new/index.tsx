@@ -9,7 +9,7 @@ export const Route = createFileRoute("/ideas/new/")({
 });
 
 const initialIdea: Idea = {
-    id: "",
+    _id: "",
     title: "",
     summary: "",
     description: "",
