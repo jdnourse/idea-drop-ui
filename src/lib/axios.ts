@@ -9,7 +9,7 @@ export const setAuthToken = (token: string | null) => {
 };
 
 const api = axios.create({
-    baseURL: `${import.meta.env.VITE_API_BASE_URL}/api`,
+    baseURL: `${import.meta.env.VITE_PRODUCTION_API_URL}/api`,
     withCredentials: true,
     headers: {
         "Content-Type": "application/json",
